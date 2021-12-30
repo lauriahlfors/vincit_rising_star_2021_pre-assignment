@@ -1,0 +1,14 @@
+@use '../defaults/colors' as *;
+
+.text {
+  &-white {
+    color: $light-1;
+  }
+  &-green {
+    color: $green-1;
+  }
+
+  &-space-bottom {
+    margin-bottom: 20px;
+  }
+}

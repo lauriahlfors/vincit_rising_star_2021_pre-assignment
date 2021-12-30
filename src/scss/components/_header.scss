@@ -1,0 +1,34 @@
+.header {
+  width: 100vw;
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-safezone {
+    max-width: 1192px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 48px;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (width < 675px) {
+    margin: 24px 0;
+    height: 100%;
+
+    &-safezone {
+      flex-direction: column;
+      gap: 48px 0;
+    }
+  }
+}

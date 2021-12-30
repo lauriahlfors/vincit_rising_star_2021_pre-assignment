@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-bottom: 1px solid #121212;
+
+  &-safezone {
+    max-width: 1192px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+}
